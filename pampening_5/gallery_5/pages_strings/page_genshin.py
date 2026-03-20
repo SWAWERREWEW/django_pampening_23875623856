@@ -1,0 +1,11 @@
+page_genshin = """
+<div style="font-size: 40px">
+genshin <br>
+<img height="700" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5W7IrIelqbxC_wQnoMNSpiMcvjoV_ltgPmWCkXdub3RPyK-74-oVj-tP1ZNHHBLXEM3lO_q05OegP1sI7sLr3II1kPCdhekNqQOJzQhVF&s=10"/>
+<br>
+eoifjwoejgweogweigjwojgwg
+fptisrcajsmfrjvmflaairlypgavhtnshyqeogjoj <br>
+<a href="http://127.0.0.1:8000/gallery/fnaf/"> fnaf </a> <br>
+<a href="http://127.0.0.1:8000/"> main </a>
+</div>
+"""
