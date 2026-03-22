@@ -1,13 +1,10 @@
 from django.shortcuts import render, HttpResponse
 
-from .pages_strings.page_genshin import page_genshin
-from .pages_strings.page_fnaf import page_fnaf
-
 # Create your views here.
 
 def gallery_page_genshin(request):
-    return HttpResponse(page_genshin)
+    return render(request, 'gallery_5/genshin.html')
 
 
 def gallery_page_fnaf(request):
-    return HttpResponse(page_fnaf)
+    return render(request, 'gallery_5/fnaf.html')
