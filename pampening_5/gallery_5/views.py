@@ -3,11 +3,15 @@ from django.shortcuts import render, HttpResponse
 address_main = "http://127.0.0.1:8000/"
 
 
+# with open("long_links.txt") as file:
+#     data_txt = file.read()
+
+
 def gallery_page_genshin(request):
     global address_main
     links = {"picture_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5W7IrIelqbxC_wQnoMNSpiMcvjoV_ltgPmWCkXdub3RPyK-74-oVj-tP1ZNHHBLXEM3lO_q05OegP1sI7sLr3II1kPCdhekNqQOJzQhVF&s=10",
-             "random_text": "File → Setting → Project → Python Interpreter → Add interpreter → Add local intepreter → Location",
-             "address_main": address_main
+    "random_text": "File → Setting → Project → Python Interpreter → Add interpreter → Add local intepreter → Location",
+    "address_main": address_main
     }
     return render(request, 'gallery_5/genshin.html', context=links)
 
