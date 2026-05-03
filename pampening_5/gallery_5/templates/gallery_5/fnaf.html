@@ -2,16 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>fmaf</title>
+    <title>fnaf</title>
 </head>
 <body>
 <div style="font-size: 40px">
-fnaf <br>
-<img height="700" src="{{ picture_link }}"/>
-<br>
-<a href="{{ address_main }}gallery/genshin/"> genshin </a> <br>
-<a href="{{ address_main }}"> main </a> <br>
-{{ random_text }}
+    fnaf <br>
+    <img height="700" src="{{ picture_link }}"/>
+    <br>
+    <a href="{{ address_main }}gallery/genshin/"> genshin </a> <br>
+    <a href="{{ address_main }}"> main </a> <br>
+    {{ random_text|upper }}
+    <h3> some python code: </h3>
+    {{ some_python_code|default:"code is don't work" }}
+    <h3> second box for code </h3>
+    {{ second_box_for_code|default:"code is don't work" }}
 </div>
 
 </body>

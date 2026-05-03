@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-3))-_ug2y*abnhehb#ig0)$oq_qh=vd7d2-(og)86oi5u(4b=j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    # "192.168.56.1"
+]
 
 
 # Application definition
@@ -38,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'gallery_5.apps.Gallery5Config',
+    'my_rooms.apps.MyRoomsConfig',
 ]
 
 MIDDLEWARE = [
